@@ -50,7 +50,7 @@ To generate a tree diagram:
 **Multiple Branch** (properties on)
 ![Figure_2](https://github.com/yunemse48/JSON_to_Tree_Diagram/assets/60715607/384486cf-2207-4a8f-8878-621a769c640e)
 
-## Customization
+## Customisation
 
 You can customise the tree diagram by modifying the script. The script allows for adjustments in the layout, node properties, and more.
 
