@@ -4,7 +4,7 @@ from networkx.drawing.nx_agraph import graphviz_layout
 import json
 
 # Load data from JSON file
-file = open("D:\insert\data.json", "r")
+file = open("data.json", "r")
 data = json.load(file)
 
 def add_nodes_with_unique_identifiers_corrected(graph, data, parent_id=None, path="", show_properties=True):
