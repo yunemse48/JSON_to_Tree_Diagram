@@ -44,7 +44,7 @@ To generate a tree diagram:
 3. The script will generate and display the tree diagram.
 
 ### Required JSON Structure
-```javascript
+```json
 {
     "key": "NodeKey",
     "children": {
