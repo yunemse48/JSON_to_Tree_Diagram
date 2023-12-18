@@ -43,6 +43,26 @@ To generate a tree diagram:
 2. Run the script with the JSON data.
 3. The script will generate and display the tree diagram.
 
+### Required JSON Structure
+```javascript
+{
+    "key": "NodeKey",
+    "children": {
+        "Child1Key": {
+            "key": "Child1Key",
+            "children": { ... },
+            "otherProperty": "value"
+        },
+        "Child2Key": {
+            "key": "Child2Key",
+            "children": { ... },
+            "otherProperty": "value"
+        }
+    },
+    "otherProperty": "value"
+}
+```
+
 ### Sample Screenshots
 **Single Branch** (properties off)
 ![Figure_1](https://github.com/yunemse48/JSON_to_Tree_Diagram/assets/60715607/e4fa7905-1348-44bf-992f-d7b2105c4dfe)
